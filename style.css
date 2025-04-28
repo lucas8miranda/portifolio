@@ -946,6 +946,10 @@ nav {
     align-items: flex-start;
   }
 
+  nav.scrolled {
+    padding: 20px 20px;
+  }
+
   nav {
     padding: 20px 20px;
   }
@@ -1470,12 +1474,6 @@ a:focus, button:focus {
   background: var(--gradient);
   width: 0%;
   transition: width 0.2s ease;
-}
-
-nav.scrolled {
-  padding: 15px 60px;
-  background-color: rgba(249, 250, 251, 0.95);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .logo:hover {
